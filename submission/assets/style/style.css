@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+header{
+    display: inline;
+}
+body{
+    font-family: 'Open Sans' ,sans-serif;
+    padding: 0;
+    margin: 0;
+}
+main {
+    padding: 20px 100px 20px 100px;
+    overflow: auto;
+}
+.papanNama {
+    background-color: #a61a1d;
+    padding: 60px;
+    text-align: 
+    center;
+}
+nav {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: -25px;
+   background-color: white;
+}
+nav a {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav a:link {
+    color: rgb(0, 0, 0);
+}
+nav a:visited{
+    color: rgb(0, 0, 0);
+}
+
+nav a:hover {
+    color: #a61a1d;
+}
+nav a:active {
+    color: rgb(0, 0, 0);
+}
+header li {
+    display: inline;
+    background-color: #ffffff;
+    margin-left: 5px;
+    padding-right: 10px;
+
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+#content {
+    float: left;
+    width: 75%;
+
+}
+aside{
+    float: right;
+    width: 25%;
+    padding-left:20px;
+}
+aside div{
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    text-align: center;
+    padding:  20px;
+    color: white;
+    background-color: #a61a1d;
+}
+article ol{
+    padding-left: 50px;
+}
+article h2{
+    font-style: italic;
+}
+svg {
+    display: none;}
+
+/*resonsive*/
+@media screen and (max-width: 1000px){
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+    
+    main {
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    svg {
+        top: 0.3rem;
+        left: 0.3rem;
+        width: 1.2rem;
+        position: absolute;
+        display: block;
+        cursor: pointer;
+        padding: 0;
+      }
+      #menu {
+        display: none;
+    
+    
+      }
+      .pilihan{
+          margin-left: 10px;
+          margin-right: 10px;
+          margin-top: 19px;
+          position: sticky;
+      }
+      .open {
+        width: 100vw;
+        left: 0;
+        text-align: center;
+        position: fixed;
+        display: block !important;
+        margin-top: 1rem;
+        background-color: white;
+      }
+      .open a {
+        line-height: 2rem;
+        display: block;
+      }
+}
